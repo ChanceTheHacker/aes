@@ -8,7 +8,7 @@ const style = {
 
 const Navbar = () => {
 	return (
-		<header className="bg-lightest-blue black tc pv4 avenir">
+		<header className="bg-white black tc pv4 avenir">
 		  <a href="" >
 		  	<img style={style} className="dib pa0 br-pill" src="https://image.ibb.co/mXrpmK/Logo.jpg" alt="Logo"/>
 		  </a>
