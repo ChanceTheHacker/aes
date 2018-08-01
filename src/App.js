@@ -5,8 +5,8 @@ import Page from './components/Page';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar/>
+      <div className="App bg-light-blue">
+        <Navbar className='bg-light-blue'/>
         <Page/>
       </div>
     );
