@@ -49,7 +49,7 @@ const img9 = {
 
 const Page = () => {
 	return ( 
-		<main className="w-100 cf helvetica dark-gray bg-white pa3 pa4-m pa5-l mw9 center">
+		<main className="w-100 cf helvetica dark-gray bg-lightest-blue pa3 pa4-m pa5-l mw9 center">
 		    <div className="fl w-50 pr2 pr3-l mb3 mb4-l">
 		      <div className="cover pv5 pv6-m pv7-l" style={img1}> </div>
 		    </div>
