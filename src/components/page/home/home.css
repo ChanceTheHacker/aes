@@ -1,0 +1,45 @@
+.img1 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/AFRC-005_410_307_90.jpg');
+	background-position: center;
+}
+.img2 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/375-Highland-Ave003_410_307_90.jpg');
+	background-position: right;
+}
+.img3 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/AFRC-004_410_307_90.jpg');
+	background-position: center;
+}
+.img4 {
+	background-color: black !important;
+	background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/AFRC-003_410_307_90.jpg') !important;
+	background-position: left !important;
+}
+.img5 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/AFRC-003_410_307_90.jpg');
+	background-position: right;
+}
+.img6 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/375-Highland-Ave004_410_307_90.jpg');
+	background-position: top;
+}
+.img7 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/Glenside-025_410_273_90.jpg');
+	background-position: center;
+}
+.img8 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project3/vsig_images/Grace-Mines-before2_410_307_90.jpg');
+	background-position: center;
+}
+.img9 {
+	background-color: black;
+	background-image: url('http://aesfirst.com/images/stories/projects/project4/vsig_images/Unisys-019_410_273_90.jpg');
+	background-position: bottom;
+}
