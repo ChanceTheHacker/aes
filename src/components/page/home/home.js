@@ -1,5 +1,6 @@
 import React from 'react';
 import '../page.css';
+import excavator from './alliance-ex.jpg'
 
 
 
