@@ -21,7 +21,7 @@ class Navbar extends React.Component {
 		return (
 			<header className="">
 				<img className= "flex center mt4 mb0" src={logo} alt="logo"/>
-				<h1 className="w-100 tc mt2 f2">
+				<h1 className="w-100 tc mt2 f2 shrinkH1">
 					<span>A</span>lliance <span>E</span>nvironmental <span>S</span>ystems
 				</h1>
 				<nav className="flex center bt bb b--blue f5 mw8 center pa0 ma0 justify-around">
@@ -31,24 +31,24 @@ class Navbar extends React.Component {
 					<a className="navBig pa2 pr4 pl4 black bg-animate hover-bg-lightest-blue" href="/">
 						Home
 					</a>
-					<div className="navBig project pointer flex pa2 pr4 pl4 black bg-animate hover-bg-light-blue" href="/projects">
+					<div className="navBig project pointer flex pa2 pr4 pl4 black bg-animate hover-bg-light-green" href="/projects">
 						Projects
 						<div className="mw7 project-child center goLeft">
-							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p1" href="/project1">
+							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-green no-underline" id="p1" href="/project1">
 								Project 1
 							</a>
 							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p2" href="/project1">
 								Project 2
 							</a>
-							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p3" href="/project1">
+							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-purple no-underline" id="p3" href="/project1">
 								Project 3
 							</a>
-							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p4" href="/project1">
+							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-pink no-underline" id="p4" href="/project1">
 								Project 4
 							</a>
 						</div>
 					</div>
-					<a className="navBig pa2 pr4 pl4 black bg-animate hover-bg-light-green" href="/about">
+					<a className="navBig pa2 pr4 pl4 black bg-animate hover-bg-light-blue" href="/about">
 						About Us
 					</a>
 					<a className="navBig pa2 pr4 pl4 black bg-animate hover-bg-light-purple" href="/services">
@@ -62,7 +62,7 @@ class Navbar extends React.Component {
 					</a>
 
 				{/*Navbar for small screens under 765 pixels*/}
-				
+
 					<a className="navSmall pa2 pr4 w-10 black bg-animate hover-bg-lightest-blue" href="/">
 						Home
 					</a>
@@ -74,24 +74,24 @@ class Navbar extends React.Component {
 	                </div>
 				</nav>
 				<nav className="collapse hidden bg-white absolute flex flex-column justify-right">
-					<div className="bg-white project pointer flex pa2 pr4 pl4 black bg-animate hover-bg-light-blue" href="/projects">
+					<div className="bg-white project pointer flex pa2 pr4 pl4 black bg-animate hover-bg-light-green" href="/projects">
 						Projects
-						<div className="mw6 project-child center goLeft">
-							<a className="bg-white pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p1" href="/project1">
+						<div className="mw6 project-child center">
+							<a className="bg-white pa2 black bg-animate hover-bg-light-green no-underline" id="p1" href="/project1">
 								Project 1
 							</a>
-							<a className="bg-white pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p2" href="/project1">
+							<a className="bg-white pa2 black bg-animate hover-bg-light-blue no-underline" id="p2" href="/project1">
 								Project 2
 							</a>
-							<a className="bg-white pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p3" href="/project1">
+							<a className="bg-white pa2 black bg-animate hover-bg-light-purple no-underline" id="p3" href="/project1">
 								Project 3
 							</a>
-							<a className="bg-white pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p4" href="/project1">
+							<a className="bg-white pa2 black bg-animate hover-bg-light-pink no-underline" id="p4" href="/project1">
 								Project 4
 							</a>
 						</div>
 					</div>
-					<a className="bg-white pa2 pr4 pl4 black bg-animate hover-bg-light-green" href="/about">
+					<a className="bg-white pa2 pr4 pl4 black bg-animate hover-bg-light-blue" href="/about">
 						About Us
 					</a>
 					<a className="bg-white pa2 pr4 pl4 black bg-animate hover-bg-light-purple" href="/services">

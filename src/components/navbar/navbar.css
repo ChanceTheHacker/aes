@@ -24,17 +24,29 @@
 }
 
 /*Make projects 1-4 hide when not hovered*/
+.project-child {
+	display: none;
+}
+.project:hover .project-child {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		margin-top: 1.6rem;
+		border-bottom: solid 1px #357EDD;
+		text-decoration: none;
+}
+@media screen and (max-width: 765px){
 	.project-child {
-		display: none;
+		position: absolute;
+		flex-direction: column;
+		right: 146px;
+		bottom: 53px;
+		border-left: solid 1px #357EDD;
+		font-size: .75rem;
+		width: 70px;
 	}
-	.project:hover .project-child {
-			display: flex !important;
-			justify-content: center;
-			position: absolute;
-			margin-top: 1.6rem;
-			border-bottom: solid 1px #357EDD;
-			text-decoration: none;
-	}
+}
+
 
 .sticky {
 	position: sticky;
@@ -43,6 +55,11 @@
 }
 
 /*at 480px shrink h1*/
+@media screen and (max-width: 500px) {
+	.shrinkH1 {
+		font-size: 1.5rem !important;
+	}
+}
 
 h1 {
 	font-family: 'Encode Sans Condensed', sans-serif;
