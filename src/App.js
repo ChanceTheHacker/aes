@@ -10,8 +10,8 @@ import Project4 from './components/page/projects/project4';
 class App extends Component {
   render() {
     return (
-      <div className="App bg-light-blue">
-        <Navbar className='bg-light-blue'/>
+      <div className="App">
+        <Navbar className="helvetica"/>
         <Home/>
       </div>
     );

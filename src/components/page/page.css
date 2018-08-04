@@ -1,17 +1,16 @@
+/*don't let text box grow larger than photos*/
 @media only screen and (min-width: 960px) {
 	.maxh512 {
 		max-height: 512px !important;
 	}
 }
-
+/*change 2nd photo to not be a copy when screen shrinks and layout changes*/
 @media only screen and (max-width: 960px) {
     .img5 {
 		background-image: url('http://aesfirst.com/images/stories/projects/project1/vsig_images/AFRC-005_410_307_90.jpg') !important;
 	}
 }
-
-
-
+/*shrink font to fit in text box*/
 @media only screen and (max-width: 1118px) {
     .shrink-font {
         font-size: 1.5rem !important;
