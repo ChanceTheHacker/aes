@@ -24,7 +24,7 @@ class Navbar extends React.Component {
 				<h1 className="w-100 tc mt2 f2">
 					<span>A</span>lliance <span>E</span>nvironmental <span>S</span>ystems
 				</h1>
-				<nav className="flex center bt bb b--blue f5 mw7 center pa0 ma0 justify-around">
+				<nav className="flex center bt bb b--blue f5 mw8 center pa0 ma0 justify-around">
 
 				{/*navbar for large screens over 765 pixels*/}
 
@@ -33,7 +33,7 @@ class Navbar extends React.Component {
 					</a>
 					<div className="navBig project pointer flex pa2 pr4 pl4 black bg-animate hover-bg-light-blue" href="/projects">
 						Projects
-						<div className="mw6 project-child center goLeft">
+						<div className="mw7 project-child center goLeft">
 							<a className="pa2 pr4 pl4 black bg-animate hover-bg-light-blue no-underline" id="p1" href="/project1">
 								Project 1
 							</a>
