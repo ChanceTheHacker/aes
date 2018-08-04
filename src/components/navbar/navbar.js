@@ -62,6 +62,7 @@ class Navbar extends React.Component {
 					</a>
 
 				{/*Navbar for small screens under 765 pixels*/}
+				
 					<a className="navSmall pa2 pr4 w-10 black bg-animate hover-bg-lightest-blue" href="/">
 						Home
 					</a>
